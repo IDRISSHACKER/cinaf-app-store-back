@@ -1,0 +1,38 @@
+{
+    "name": "idris/phpstarter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IDRISSHACKER",
+            "email": "idrisscoder@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dotenv": "^5.4",
+        "symfony/var-dumper": "^5.4",
+        "asm89/stack-cors": "^2.1",
+        "fruitcake/php-cors": "^1.1",
+        "firebase/php-jwt": "^6.3",
+        "vlucas/phpdotenv": "^5.4",
+        "ramsey/uuid": "^4.2",
+        "slim/slim": "^4.9",
+        "slim/http": "^1.2",
+        "guzzlehttp/psr7": "^1",
+        "slim/psr7": "^1.5",
+        "nyholm/psr7": "^1.5",
+        "nyholm/psr7-server": "^1.0",
+        "sapphirecat/slim4-http-interop-adapter": "^1.0",
+        "laminas/laminas-diactoros": "^2.14",
+        "monolog/monolog": "^2.8"
+    },
+
+    "autoload": {
+    "psr-4": {
+        "Model\\": "Model/",
+        "Controller\\": "Controller/",
+        "App\\": "App/",
+        "Migration\\": "migration/",
+        "Interfaces\\": "interfaces/"
+    }
+}
+}

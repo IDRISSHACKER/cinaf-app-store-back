@@ -1,6 +1,6 @@
 # CINAF API STORE 
 
-application to server data for store of cinaf
+Api cinaf-app-store
 
 ## Entry point api
 
@@ -12,3 +12,14 @@ application to server data for store of cinaf
 | /software         | update software   |                                        | put    |
 | /software         | add software      |                                        | post   |
 | /software         | remove software   |                                        | delete |
+
+
+## Configuration
+
+apres le clonage
+
+### Creer la base de donnée
+
+### renomer `.env.dev` en `.env` puis la modifier pour les access à la base de donnée
+
+### importer le fichier SQL dans la racine du projet

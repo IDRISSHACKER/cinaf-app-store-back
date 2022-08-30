@@ -22,4 +22,4 @@ apres le clonage
 
 ### renomer `.env.dev` en `.env` puis la modifier pour les access à la base de donnée
 
-### importer le fichier SQL dans la racine du projet
+### importer le fichier SQL depuis la racine du projet
